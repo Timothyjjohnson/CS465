@@ -1,3 +1,13 @@
 # CS 465 Full Stack Development
 # Timothy Johnson
 # Professor Singh
+
+This project is a full stack web application built for Travlr Getaways, a fictional travel company. It supports both customer-facing and administrative sides, allowing customers to browse trips and view detailed information, while administrators can securely log in to manage, add, and edit trips. In the final iteration, I added secure authentication for the admin login to ensure only authorized users could access sensitive features. Working on the authentication was a bit challenging at first, but seeing it function correctly in the app was very satisfying.
+
+On the frontend, the customer side uses Express with HTML and JavaScript, which works well for simpler server-rendered pages and keeps the structure straightforward. The administrative side, however, was built as an Angular Single-Page Application (SPA), which allows for smoother navigation without page reloads and provides a more modern, dynamic interface. I really enjoyed building the SPA and breaking the interface into reusable components, as it made the admin side feel polished and professional. This contrast highlights the benefits of server-rendered pages for simplicity versus SPAs for interactivity.
+
+The backend uses Node.js and Express.js, with MongoDB as the database. I chose MongoDB because its flexible, JSON-like documents made it easy to handle travel data such as trips, dates, and prices without a strict schema. Using JSON also allowed the frontend and backend to communicate efficiently, which made it easier to implement features and debug issues along the way.
+
+Throughout development, I refactored repeated code into reusable UI components, such as trip cards and trip lists, which saved time and improved maintainability. Testing was another critical part of the process, especially with the added security layers. I spent time verifying that API endpoints for retrieving, adding, updating, and deleting trips worked correctly, and ensuring that only authorized users could access the admin features helped me deepen my understanding of HTTP methods, endpoints, and authentication.
+
+This course has strengthened my full stack development skills by giving me hands-on experience with both frontend and backend technologies. I feel more confident connecting multiple layers of an application, building SPAs, securing logins, and working with MongoDB. The project also gave me a sense of accomplishment, as I could see a real, functioning application come together from start to finish. Travlr Getaways will be a strong piece in my portfolio to showcase my skills to future employers, and it has motivated me to continue learning more about full stack development and modern web applications.
