@@ -2,7 +2,7 @@
 # Timothy Johnson
 # Professor Singh
 
-This project is a full stack web application built for Travlr Getaways, a fictional travel company. It supports both customer-facing and administrative sides, allowing customers to browse trips and view detailed information, while administrators can securely log in to manage, add, and edit trips. In the final iteration, I added secure authentication for the admin login to ensure only authorized users could access sensitive features. Working on the authentication was a bit challenging at first, but seeing it function correctly in the app was very satisfying.
+This project is a full stack web application built for Travlr Getaways, a travel company. It supports both customer-facing and administrative sides, allowing customers to browse trips and view detailed information, while administrators can securely log in to manage, add, and edit trips. In the final iteration, I added secure authentication for the admin login to ensure only authorized users could access sensitive features. Working on the authentication was a bit challenging at first, but seeing it function correctly in the app was very satisfying.
 
 On the frontend, the customer side uses Express with HTML and JavaScript, which works well for simpler server-rendered pages and keeps the structure straightforward. The administrative side, however, was built as an Angular Single-Page Application (SPA), which allows for smoother navigation without page reloads and provides a more modern, dynamic interface. I really enjoyed building the SPA and breaking the interface into reusable components, as it made the admin side feel polished and professional. This contrast highlights the benefits of server-rendered pages for simplicity versus SPAs for interactivity.
 
